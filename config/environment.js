@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'fb-auth',
+    podModulePrefix: 'fb-auth/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
